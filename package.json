@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "rollup-build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/zhangwei900808/learn-rollup/issues"
   },
-  "homepage": "https://github.com/zhangwei900808/learn-rollup#readme"
+  "homepage": "https://github.com/zhangwei900808/learn-rollup#readme",
+  "devDependencies": {
+    "rollup": "^0.41.1"
+  }
 }
