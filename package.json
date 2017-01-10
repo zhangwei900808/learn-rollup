@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "rollup-build": "rollup -c",
+    "rollup-env-build": "SET NODE_ENV=production rollup -c",
     "eslint-init": "eslint --init"
   },
   "repository": {
@@ -21,6 +22,13 @@
     "babel-preset-es2015-rollup": "^3.0.0",
     "rollup": "^0.41.1",
     "rollup-plugin-babel": "^2.7.1",
-    "rollup-plugin-eslint": "^3.0.0"
+    "rollup-plugin-commonjs": "^7.0.0",
+    "rollup-plugin-eslint": "^3.0.0",
+    "rollup-plugin-node-resolve": "^2.0.0",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^1.0.1"
+  },
+  "dependencies": {
+    "debug": "^2.6.0"
   }
 }
