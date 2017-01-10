@@ -19,10 +19,11 @@
             "error",
             "unix"
         ],
-        "quotes": [
+        /*"quotes": [
             "error",
-            "single"
-        ],
+            "single",
+            { "allowTemplateLiterals": true }
+        ],*/
         "semi": [
             "error",
             "always"
