@@ -1,6 +1,10 @@
 // Import a couple modules for testing.
 import { sayHelloTo } from './modules/mod1';
 import addArray from './modules/mod2';
+import Awbeci from './modules/mod3';
+
+var awbeci = new Awbeci();
+awbeci.say();
 
 // Import a logger for easier debugging.
 import debug from 'debug';
