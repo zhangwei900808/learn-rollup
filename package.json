@@ -4,11 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "livereload": "livereload 'docs/'",
+    "livereload": "livereload 'docs/' -d",
     "rollup-build": "rollup -c",
     "rollup-production-build": "NODE_ENV=production rollup -c",
     "rollup-build-watch": "rollup -c --watch",
-    "eslint-init": "eslint --init"
+    "eslint-init": "eslint --init",
+
+    "all":"npm-run-all --parallel livereload rollup-build-watch"
   },
   "repository": {
     "type": "git",
