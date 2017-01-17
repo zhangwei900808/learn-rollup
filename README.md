@@ -1,1 +1,1 @@
-# Rollup + Babel + Elint + EditorConfig + Env
+# Rollup + Babel + Elint + EditorConfig + Env + LiveReload

@@ -4,6 +4,7 @@ import { sayHelloTo } from './modules/mod1';
 import addArray from './modules/mod2';
 import Awbeci from './modules/mod3';
 
+//awbeci init
 var awbeci = new Awbeci();
 awbeci.say();
 
@@ -16,6 +17,9 @@ if (ENV !== 'production') {
 
   // Enable the logger.
   debug.enable('*');
+
+  // Enabled livereload
+  document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>');
   log('Logging is enabled!');
 } else {
   debug.disable();
